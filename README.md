@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet tricky bug in React Native applications involving AsyncStorage.  Due to AsyncStorage's non-thread-safe nature, concurrent operations can lead to data loss or unexpected application behavior. This example shows how to reproduce the issue and provides a solution using promises or async/await to handle concurrent access properly.
