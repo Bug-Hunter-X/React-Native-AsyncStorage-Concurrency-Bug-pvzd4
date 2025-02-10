@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in React Native. It happens because AsyncStorage is not thread-safe, and multiple concurrent reads or writes can lead to unexpected behavior or data corruption. The error message itself might not be specific to this cause, and you might see general AsyncStorage errors or even app crashes.
